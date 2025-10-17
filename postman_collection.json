@@ -1,0 +1,8 @@
+{
+  "info": { "name": "Gold API", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json" },
+  "item": [
+    { "name": "Get Candles", "request": { "url": "http://localhost:3000/api/candles?symbol=BTCUSDT&interval=1m", "method": "GET" } },
+    { "name": "Get Strategies", "request": { "url": "http://localhost:3000/api/strategies", "method": "GET" } },
+    { "name": "Get Strategy Stats", "request": { "url": "http://localhost:3000/api/strategy/meanReversion/stats", "method": "GET" } }
+  ]
+}
